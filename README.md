@@ -3,6 +3,8 @@
 Juego de alinear **3 fichas** en vertical, horizontal o diagonal, hecho con **Next.js 16** y **React 19**.
 Es la versión en Next.js del juego original en un solo `index.html` (HTML, CSS y JavaScript).
 
+**▶ Jugar en línea: https://conecta-3-iota.vercel.app**
+
 ## Características
 
 - 🤖 Contra la CPU en 3 niveles (Fácil, Medio, Difícil) o 👥 2 jugadores en la misma pantalla
