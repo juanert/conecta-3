@@ -13,6 +13,11 @@ Es la versión en Next.js del juego original en un solo `index.html` (HTML, CSS 
   modal de reglas con `<dialog>`, foco visible y respeto a `prefers-reduced-motion`
 - Atajos de teclado: <kbd>1</kbd>–<kbd>6</kbd> sueltan la ficha en esa columna (modo gravedad) y <kbd>R</kbd> reinicia
 
+## Despliegue
+
+Publicado en **Vercel**, conectado a este repositorio: cada `push` a `main` despliega a producción
+y cada pull request genera una URL de vista previa.
+
 ## Cómo ejecutarlo
 
 Requiere Node.js 24+ y **pnpm** (el proyecto bloquea npm a propósito).
