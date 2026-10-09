@@ -1,0 +1,14 @@
+# Seguridad de la cadena de suministro (igual que sistema-administrativo)
+
+# Esperar 3 días antes de instalar versiones recién publicadas
+minimumReleaseAge: 4320
+# Bloquear dependencias transitivas desde git/tarballs
+blockExoticSubdeps: true
+# No instalar si un paquete pierde su nivel de confianza (solo versiones de los últimos 30 días)
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 43200
+
+# Solo estos paquetes pueden ejecutar scripts de instalación
+allowBuilds:
+  sharp: false
+  unrs-resolver: false

@@ -1,0 +1,40 @@
+{
+  "name": "conecta-3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Conecta 3: juego de alinear tres fichas, con CPU de 3 niveles, modo gravedad o casilla libre.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "typescript": "^5",
+    "vitest": "^5"
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=12",
+    "npm": "please-use-pnpm"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "error"
+    }
+  },
+  "packageManager": "pnpm@12.8.1"
+}
